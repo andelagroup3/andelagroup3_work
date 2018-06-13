@@ -3,7 +3,7 @@ h5{
 	text-transform: uppercase;
 }
 
-.index-banner .menu-item{
+.index-banner-menu .menu-item{
 	width: calc(100%-20px);
 	background-color: #f3f3f3;
 	margin: 10px;
@@ -56,4 +56,25 @@ h5{
 	border-radius: 8px;
 	border-color: green;
 	background-color: green	;
+}
+
+.index-banner-menu{
+	width: 100%;
+		height: calc(100vh - 120px);
+		background-image: url('IMG_4247.JPG');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		display: table;
+}
+
+@media only screen and (min-width: 1000px){
+
+	.index-banner-menu .menu-item{
+	width: calc(50% - 100px) !important;
+	height: 200px;
+	overflow: auto;
+	float: left;
+	margin: 10px 20px;
+}
 }
